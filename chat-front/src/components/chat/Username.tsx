@@ -23,8 +23,9 @@ const Username = ({ socket, setUsername }: Props) => {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
+        className="input bg-white"
       />
-      <button type="submit">Submit</button>
+      <button className="btn ml-3" type="submit">Submit</button>
     </form>
   );
 };
